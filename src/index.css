@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles to ensure full-height layout */
+html, body, #root {
+  height: 100%;
+}
+
+/* Light/dark background adjustments handled by Tailwind's dark: utilities */
